@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto;
+ 
+}
+nav{
+    background: #FFF;
+    height: 80px;
+
+}
+.email:hover{
+ color: var(--slate, #434455);
+}
+.number:hover{
+    color: var(--slate, #434455);
+}
+.container-button{
+    display: flex;
+    justify-content: center;
+}
+.bankapp{
+    right: 370px;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    top: 350px;
+    text-align: center;
+    
+}
+.qrcode{
+text-align: center;
+align-items: center;
+position: absolute;
+top: 110px;
+left: 510px;
+bottom: 560px;
+right: 600px;
+top: 469px;
+}
+.macbook{
+text-align: center;
+left: 300px;
+position: relative;
+align-items: center;
+bottom: 295px;
+}
+allbutton{
+padding: 30%;
+left: 40%;
+position: relative;
+align-items: center;
+text-align: center;
+    }
+  
+
+
+   
+
+
