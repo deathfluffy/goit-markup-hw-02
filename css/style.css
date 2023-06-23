@@ -1,10 +1,25 @@
-
-body{
-    font-family: "Roboto", sans-serif;
-    
-    color: #434455;
+ul {
+    list-style-type: none;
+}
+ul li a:hover {
+    text-decoration: none;
+}
+.navbar{
+  text-align: center;
+ align-items: center;
+ 
 }
 
+.main-title{
+    font-size: 56px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+    text-align: center;
+    align-items: center;
+        
+}
 
    
 
