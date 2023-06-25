@@ -53,13 +53,13 @@ ul {
 
 nav ul li {
     list-style-type: none;
-    display: inline-block;
+    
     text-decoration: none;
    
 
 }
 address {
-    position: absolute;
+   
     top: 0;
     right: 15px;
     transform: none;
