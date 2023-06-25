@@ -115,7 +115,7 @@ span {
     line-height: 60px;
     letter-spacing: 1.12px;
     position: absolute;
-    top: 50%;
+    top: 47%;
     left: 43%;
     transform: translate(-50%, -50%);
     color: white;
@@ -124,14 +124,15 @@ span {
 
 .button-1 {
     position: absolute;
-    left: 36%;
-    bottom: 30%;
+    left: 35%;
+    bottom: 40%;
     display: inline-flex;
     padding: 16px 32px;
     align-items: flex-start;
     border-radius: 4px;
     background: var(--iris, #4D5AE5);
     color: white;
+    
 }
 
 .button-1:hover {
@@ -145,7 +146,7 @@ h3{
         font-weight: 500;
         line-height: 24px;
         letter-spacing: 0.4px;
-        display: inline-block;
+       
 }
 p{
     color: var(--slate, #434455);
@@ -154,9 +155,18 @@ p{
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.32px;
-        display: block;
+  
 }
 .wrapper{
-        
-        justify-self: space-between;
+       position: relative;
+       width: 1100px;
+       display:  flex;
+       justify-content: center;
+       align-items: center;
+       flex-wrap: wrap;
+}
+
+
+.box{
+    height: 70px;
 }
