@@ -3,6 +3,9 @@ body{
     color: #434455;
 
 }
+ul li{
+    list-style-type: none;
+}
 
 nav {
     background-color: #f2f2f2;
