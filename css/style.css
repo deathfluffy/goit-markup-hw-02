@@ -50,7 +50,9 @@ nav ul {
     text-transform: uppercase;
     color: var(--iris, #4d5ae5);
     text-decoration: none;
-
+    font-family: "Raleway", sans-serif,;
+    font-size: 18px;
+    font-weight: 800;
 }
 .stu{
     color: var(--iris, #2e2f42);
