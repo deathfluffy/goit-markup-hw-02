@@ -5,6 +5,8 @@
     --slate: #434455;
     --iris: #434455;
     --footer-bg-color: #2e2f42;
+    --iris: #2e2f42;
+    
 }
 body{
    font-family: "Roboto", sans-serif;
@@ -17,7 +19,7 @@ ul li{
 
 nav {
     background-color: #f2f2f2;
-    display: flex;
+    
     align-items: center;
     border-bottom: none;
 }
@@ -38,13 +40,30 @@ nav {
 
 nav ul {
     list-style-type: none;
-    display: flex;
+   
 }
 .log{
     color: var(--navyblue, #2E2F42);
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris, #4d5ae5);
+    text-decoration: none;
+
 }
+.stu{
+    color: var(--iris, #2e2f42);
 
+}
+.lan{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--iris, #2e2f42);
 
+}
 nav ul li a {
     text-decoration: none;
     color: var(--navyblue, #2E2F42);
@@ -192,4 +211,15 @@ p{
 }
 .footer{
     background-color: var(--footer-bg-color);
+}
+.add{
+font-style: normal;
+
+}
+.ema{
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--iris, #434455);
+
 }
