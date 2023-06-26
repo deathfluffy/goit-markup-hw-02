@@ -22,7 +22,7 @@ nav {
     border-bottom: none;
 }
 
-.logo {
+.link {
     text-decoration: none;
     color: var(--iris, #4d5ae5);
     font-size: 18px;
@@ -106,7 +106,7 @@ address ul li a {
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    
+    color: #f4f4fd;
 
 }
 
