@@ -106,7 +106,6 @@ body{
 
 p{
     color: var(--slate, #434455);
-      
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -295,3 +294,55 @@ body .all{
     color: #FFFFFF;
     background-color: #404BBF;
 }
+.ban{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-color, #2e2f42);
+}
+.med {
+        font-weight: 500;
+            font-size: 20px;
+            line-height: 1.2;
+            letter-spacing: 0.02em;
+            color: var(--text-color, #2e2f42);
+}
+
+
+
+.tax {font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-color, #2e2f42);}
+
+.scr {font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-color, #2e2f42);}
+
+.onl {font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-color, #2e2f42);}
+
+.con {font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-color, #2e2f42);}
+
+.org {font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-color, #2e2f42);}
+
+.fre {font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--text-color, #2e2f42);}
