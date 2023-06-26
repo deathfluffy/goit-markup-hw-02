@@ -4,9 +4,8 @@
     --navyblue: #2E2F42;
     --slate: #434455;
     --iris: #434455;
-    --footer-bg-color: #2e2f42;
     --iris: #2e2f42;
-    
+    --slate: #F4F4FD;
 }
 body{
    font-family: "Roboto", sans-serif;
@@ -62,8 +61,12 @@ nav ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     --iris: #434455;
+    font-family: "Raleway", sans-serif;
+
+
 
 }
+
 .stu:hover{
     color: #404bbf;
 }
@@ -147,6 +150,13 @@ address ul li a {
     text-transform: uppercase;
     color: #f4f4fd;
 
+}
+span .log .stu link{
+    list-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .background-1 {
@@ -241,8 +251,14 @@ color: #404BBF;
     letter-spacing: 0.02em;
     color: var(--iris, #434455);
 }
-.footer{
-    background-color: var(--footer-bg-color);
+.foo{
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris, #4D5AE5);
 }
 .add{
 font-style: normal;
@@ -256,4 +272,18 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--iris, #434455);
 
+}
+.mai{
+background-color: var(--iris, #2e2f42);
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #ffffff;
+}
+.dio{
+    color: #f4f4fd;
+    line-height: 1.5;
+    color: var(--iris, #F4F4FD);
+    letter-spacing: 0.02em;
 }
