@@ -35,6 +35,7 @@ nav {
     text-transform: uppercase;
     font-size: 18px;
     
+    
 }
 
 
@@ -204,6 +205,17 @@ p{
 }
 .list{
     list-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--iris, #2e2f42);
+}
+.link:hover{
+ color: #404BBF;
+}
+.link:focus{
+color: #404BBF;
 }
 .app{
     font-size: 16px;
@@ -216,6 +228,8 @@ p{
 }
 .add{
 font-style: normal;
+color: var(--slate,#434455);
+
 
 }
 .ema{
