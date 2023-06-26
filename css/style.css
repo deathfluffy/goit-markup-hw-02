@@ -1,6 +1,6 @@
 body{
    font-family: "Roboto", sans-serif;
-    color: #434455;
+   color: #434455;
 
 }
 ul li{
@@ -154,8 +154,31 @@ p{
   
 }
 .container-button{
-   
-    font-family: 'Roboto', sans-serif;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris, #4D5AE5);
+    background-color: var(--iris, #4D5AE5);
+    cursor: pointer
+    
 }
-
-
+.container-button:hover{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.container-button:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+    
+}
+.list{
+    list-style: none;
+}
+.app{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--iris, #434455);
+}
