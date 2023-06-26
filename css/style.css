@@ -4,6 +4,7 @@
     --navyblue: #2E2F42;
     --slate: #434455;
     --iris: #434455;
+    --footer-bg-color: #2e2f42;
 }
 body{
    font-family: "Roboto", sans-serif;
@@ -23,7 +24,7 @@ nav {
 
 .logo {
     text-decoration: none;
-    color: var(--iris, #4D5AE5);
+    color: var(--iris, #4d5ae5);
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -39,7 +40,7 @@ nav ul {
     list-style-type: none;
     display: flex;
 }
-.logo-2{
+.log{
     color: var(--navyblue, #2E2F42);
 }
 
@@ -188,4 +189,7 @@ p{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--iris, #434455);
+}
+.footer{
+    background-color: var(--footer-bg-color);
 }
