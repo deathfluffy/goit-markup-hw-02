@@ -87,6 +87,7 @@ body{
  span {
     text-decoration: none;
     color: var(--navyblue, #2e2f42);
+    color: #f4f4fd;
 
 }
 
