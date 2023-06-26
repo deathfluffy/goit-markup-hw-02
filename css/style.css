@@ -17,6 +17,7 @@
     --main-title: #2e2f42;
     --description: #434455;
     --header-color: #434455;
+    --stu-color: #2e2f42;
 
 }
 body{
@@ -38,18 +39,8 @@ body{
 
     
 }
-a {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--slate, #434455);
-}
-.ema .link{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--iris, #434455);
-}
+
+
 .tit{
     font-weight: 500;
     font-size: 20px;
@@ -60,7 +51,7 @@ a {
 
 
 
-.ema{
+.fer{
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -69,7 +60,7 @@ a {
     text-transform: uppercase;
     color: var(--ocean, #4d5ae5);
 }
-.stu .link{
+.stu{
 
    
     font-weight: 500;
@@ -78,7 +69,7 @@ a {
     letter-spacing: 0.02em;
     --iris: #434455;
     font-family: "Raleway", sans-serif;
-    color: var(--stand-color, #2e2f42);
+    color: var(--stu-color, #2e2f42);
     text-decoration: none;
 
 }
@@ -87,19 +78,6 @@ a {
     color: #404bbf;
 }
 .stu:focus{
-    color: #404bbf;
-}
-.link-1{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--iris, #2e2f42);
-}
-.link-1:hover{
-    color: #404bbf;
-}
-.link-1:focus{
     color: #404bbf;
 }
 
@@ -198,7 +176,11 @@ font-style: normal;
 
 }
 .ema{
-    text-decoration: none;
+    
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--iris, #434455);
 
 }
 .ema:hover{
