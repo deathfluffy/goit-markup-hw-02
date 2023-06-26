@@ -205,12 +205,93 @@ body .all{
     color: var(--ocean);
     background-color: var(--button-bg-color);
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
+
 }
 .all:hover{
     color: #FFFFFF;
     background-color: #404BBF;
 }
 .all:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.web {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: var(--ocean);
+        background-color: var(--button-bg-color);
+        cursor: pointer;
+        font-family: "Roboto", sans-serif;
+}
+.web:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.web:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.app {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: var(--ocean);
+        background-color: var(--button-bg-color);
+        cursor: pointer;
+        font-family: "Roboto", sans-serif;
+}
+
+.app:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.app:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.des {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: var(--ocean);
+            background-color: var(--button-bg-color);
+            cursor: pointer;
+            font-family: "Roboto", sans-serif;
+}
+.des:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.des:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.mak {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 1.5;
+                letter-spacing: 0.04em;
+                color: var(--ocean);
+                background-color: var(--button-bg-color);
+                cursor: pointer;
+                font-family: "Roboto", sans-serif;
+}
+.mak:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.mak:focus {
     color: #FFFFFF;
     background-color: #404BBF;
 }
