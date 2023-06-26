@@ -13,42 +13,31 @@
     --stand-color: #4d5ae5;
     --ocean: #4d5ae5;
     --button-bg-color: #F4F4FD;
+    --background-body: #FFFFFF;
 }
 body{
    font-family: "Roboto", sans-serif;
    color: #434455;
-
+   background-color: var(--background-body);
 }
 
 .link {
 
     text-decoration: none;
-    color: var(--iris, #4d5ae5);
-    font-size: 18px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    font-size: 18px;
-    
+
     
 }
 
 
 
-.log{
-   
-    letter-spacing: 0.03em;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--iris, #4d5ae5);
-    text-decoration: none;
-    font-family: "Raleway", sans-serif,;
-    font-size: 18px;
+.ema{
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
-    color: var(--title-color, #2e2f42);
+    font-size: 18px;
+    line-height: 1.17;
+    line-height: 1.17;
+    text-transform: uppercase;
+    color:var(--text-color, #2e2f42);
 }
 .stu{
 
