@@ -9,7 +9,7 @@
     --text-color: #2e2f42;
     --title-color: #2e2f42;
     --logo-text-color: #4d5ae5;
-    
+    --custom-color: #4d5ae5;
 }
 body{
    font-family: "Roboto", sans-serif;
@@ -185,4 +185,13 @@ color: var(--slate,#434455);
 }
 .ema:focus{
     color: #404bbf;
+}
+.vbn{
+
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--custom-color);
 }
