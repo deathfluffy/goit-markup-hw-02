@@ -1,3 +1,10 @@
+:root{
+    --iris-hover: #6E78F0;
+    --iris: #4D5AE5;
+    --navyblue: #2E2F42;
+    --slate: #434455;
+    --iris: #434455;
+}
 body{
    font-family: "Roboto", sans-serif;
    color: #434455;
