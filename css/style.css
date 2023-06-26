@@ -6,6 +6,8 @@
     --iris: #434455;
     --footer-bg-color: #2e2f42;
     --iris: #2e2f42;
+    --text-color: #2e2f42;
+    --title-color: #2e2f42;
     
 }
 body{
@@ -44,15 +46,16 @@ body{
     font-weight: 800
 }
 .stu{
-    color: var(--iris, #2e2f42);
+
+    color: var(--title-color, #2e2f42);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     --iris: #434455;
     font-family: "Raleway", sans-serif;
-
-
+    color: var(--text-color, #2e2f42);
+    text-decoration: none;
 
 }
 
@@ -62,18 +65,17 @@ body{
 .stu:focus{
     color: #404bbf;
 }
-.lan{
+.link-1{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--iris, #2e2f42);
     
 }
-.lan:hover{
+.link-1:hover{
     color: #404bbf;
 }
-.lan:focus{
+.link-1:focus{
     color: #404bbf;
 }
 
