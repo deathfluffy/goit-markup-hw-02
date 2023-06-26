@@ -16,6 +16,7 @@
     --background-body: #FFFFFF;
     --main-title: #2e2f42;
     --description: #434455;
+    --header-color: #434455;
 
 }
 body{
@@ -86,12 +87,7 @@ body{
  span {
     text-decoration: none;
     color: var(--navyblue, #2e2f42);
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 21px;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    color: #f4f4fd
+
 }
 
 
@@ -138,18 +134,17 @@ p{
 }
 .list{
     list-style: none;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--iris, #2e2f42);
+    color: var(--header-color);
 
 }
 .link:hover{
- color: #404BBF;
+ color: #404bbf;
 }
 .link:focus{
-color: #404BBF;
+color: #404bbf;
 }
 .app{
     font-size: 16px;
@@ -180,7 +175,7 @@ color: var(--slate,#434455);
 }
 .ema{
     text-decoration: none;
-    
+
 }
 .ema:hover{
     color: #404bbf
