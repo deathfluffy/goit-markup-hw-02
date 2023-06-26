@@ -16,6 +16,7 @@
     --background-body: #FFFFFF;
     --main-title: #2e2f42;
     --description: #434455;
+
 }
 body{
    font-family: "Roboto", sans-serif;
@@ -44,9 +45,9 @@ body{
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:var(--text-color, #2e2f42);
+    color: var(--ocean, #4d5ae5);
 }
 .stu{
 
@@ -84,7 +85,7 @@ body{
 
  span {
     text-decoration: none;
-    color: var(--navyblue, #2E2F42);
+    color: var(--navyblue, #2e2f42);
     font-size: 18px;
     font-weight: 800;
     line-height: 21px;
@@ -179,6 +180,7 @@ color: var(--slate,#434455);
 }
 .ema{
     text-decoration: none;
+    
 }
 .ema:hover{
     color: #404bbf
