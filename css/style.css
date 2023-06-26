@@ -18,22 +18,23 @@ nav {
     text-decoration: none;
     color: var(--iris, #4D5AE5);
     font-size: 18px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
-    line-height: 21px;
-    letter-spacing: 0.54px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+    font-size: 18px;
+    
 }
 
-.logo span {
-    color: var(--navyblue, #2E2F42);
-}
 
 nav ul {
     list-style-type: none;
     display: flex;
 }
-
+.logo-2{
+    color: var(--navyblue, #2E2F42);
+}
 
 
 nav ul li a {
@@ -50,16 +51,8 @@ nav ul li a:hover {
     color: var(--iris-hover, #6E78F0);
 }
 
-ul {
-    list-style-type: none;
-}
-
-nav ul li {
-    list-style-type: none;
-    
-    text-decoration: none;
-   
-
+nav{
+    list-style: none;
 }
 
 address {
@@ -83,12 +76,6 @@ address ul {
     outline: none;
 }
 
-address ul li {
-    display: inline-block;
-    outline: none;
-   
-   
-}
 
 address ul li a {
     text-decoration: none;
@@ -102,7 +89,7 @@ address ul li a {
 }
 
 
-span {
+ span {
     text-decoration: none;
     color: var(--navyblue, #2E2F42);
     font-size: 18px;
@@ -111,6 +98,7 @@ span {
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    
 
 }
 
@@ -165,16 +153,8 @@ p{
         letter-spacing: 0.32px;
   
 }
-.wrapper{
-      
-      
-       justify-content: center;
-      
-       flex-wrap: wrap;
-}
 .container-button{
-    text-align: center;
-    justify-content: center;
+   
     font-family: 'Roboto', sans-serif;
 }
 
