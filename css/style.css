@@ -39,6 +39,12 @@ body{
 
     
 }
+.ema .link{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--iris, #434455);
+}
 .tit{
     font-weight: 500;
     font-size: 20px;
@@ -83,7 +89,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
+    color: var(--iris, #2e2f42);
 }
 .link-1:hover{
     color: #404bbf;
@@ -176,6 +182,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--slate,#434455);
+font-style: normal;
 
 
 }
