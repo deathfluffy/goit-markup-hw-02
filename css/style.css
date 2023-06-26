@@ -170,8 +170,9 @@ color: var(--slate,#434455);
 }
 
 .log{
-    color: var(--iris, #4D5AE5);
+    color: #f4f4fd;
     text-decoration: none;
+
 }
 .ema{
     text-decoration: none;
