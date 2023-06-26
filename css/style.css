@@ -53,11 +53,22 @@ nav ul {
     text-decoration: none;
     font-family: "Raleway", sans-serif,;
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 800
 }
 .stu{
     color: var(--iris, #2e2f42);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    --iris: #434455;
 
+}
+.stu:hover{
+    color: #404bbf;
+}
+.stu:focus{
+    color: #404bbf;
 }
 .lan{
     font-weight: 500;
@@ -65,7 +76,13 @@ nav ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--iris, #2e2f42);
-
+    
+}
+.lan:hover{
+    color: #404bbf;
+}
+.lan:focus{
+    color: #404bbf;
 }
 nav ul li a {
     text-decoration: none;
@@ -210,6 +227,7 @@ p{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--iris, #2e2f42);
+
 }
 .link:hover{
  color: #404BBF;
