@@ -10,6 +10,7 @@
     --title-color: #2e2f42;
     --logo-text-color: #4d5ae5;
     --custom-color: #4d5ae5;
+    --stand-color: #4d5ae5;
 }
 body{
    font-family: "Roboto", sans-serif;
@@ -35,7 +36,7 @@ body{
 
 
 .log{
-    color: var(--navyblue, #2E2F42);
+   
     letter-spacing: 0.03em;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -44,18 +45,19 @@ body{
     text-decoration: none;
     font-family: "Raleway", sans-serif,;
     font-size: 18px;
-    font-weight: 800
+    font-weight: 800;
+    color: var(--title-color, #2e2f42);
 }
 .stu{
 
-    color: var(--title-color, #2e2f42);
+   
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     --iris: #434455;
     font-family: "Raleway", sans-serif;
-    color: var(--text-color, #2e2f42);
+    color: var(--stand-color, #4d5ae5);
     text-decoration: none;
 
 }
