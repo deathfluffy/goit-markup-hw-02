@@ -85,10 +85,13 @@ body{
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    color: #f4f4fd;
-
+    color: #f4f4fd
 }
 
+.link .log{
+    background-color: var(--footer-bg-color, #2e2f42);
+    color: var(--iris, #4D5AE5);
+}
 
 .main-title {
     font-size: 40px;
