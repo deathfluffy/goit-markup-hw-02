@@ -88,10 +88,7 @@ body{
     color: #f4f4fd
 }
 
-.link .log{
-    background-color: var(--footer-bg-color, #2e2f42);
-    color: var(--iris, #4D5AE5);
-}
+
 
 .main-title {
     font-size: 40px;
@@ -163,4 +160,11 @@ font-style: normal;
 color: var(--slate,#434455);
 
 
+}
+.foo{
+    background-color: var(--footer-bg-color, #2e2f42);
+    
+}
+.log{
+    color: var(--iris, #4D5AE5);
 }
