@@ -11,6 +11,8 @@
     --logo-text-color: #4d5ae5;
     --custom-color: #4d5ae5;
     --stand-color: #4d5ae5;
+    --ocean: #4d5ae5;
+    --button-bg-color: #F4F4FD;
 }
 body{
    font-family: "Roboto", sans-serif;
@@ -199,4 +201,22 @@ color: var(--slate,#434455);
 }
 .foo{
    background-color:  var(--footer-bg-color);
+}
+body .all{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--ocean);
+    background-color: var(--button-bg-color);
+    cursor: pointer;
+}
+.all:hover{
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+.all:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
 }
