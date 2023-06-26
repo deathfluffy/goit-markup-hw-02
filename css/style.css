@@ -13,16 +13,6 @@ body{
    color: #434455;
 
 }
-ul li{
-    list-style-type: none;
-}
-
-nav {
-    background-color: #f2f2f2;
-    
-   
-    
-}
 
 .link {
     text-decoration: none;
@@ -39,10 +29,7 @@ nav {
 }
 
 
-nav ul {
-    list-style-type: none;
-   
-}
+
 .log{
     color: var(--navyblue, #2E2F42);
     letter-spacing: 0.03em;
@@ -88,57 +75,6 @@ nav ul {
 .lan:focus{
     color: #404bbf;
 }
-nav ul li a {
-    text-decoration: none;
-    color: var(--navyblue, #2E2F42);
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-}
-
-nav ul li a:hover {
-    color: var(--iris-hover, #6E78F0);
-}
-
-nav{
-    list-style: none;
-}
-
-address {
-   
-    
-    
-    transform: none;
-   
-   
-    font-size: 14px;
-    line-height: 1.5;
-    color: #333;
-           
-      
-           
-    
-}
-
-address ul {
-    list-style-type: none;
-    outline: none;
-}
-
-
-address ul li a {
-    text-decoration: none;
-    color: var(--navyblue, #2E2F42);
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    outline: none;
-  
-}
-
 
  span {
     text-decoration: none;
@@ -153,9 +89,6 @@ address ul li a {
 
 }
 
-.background-1 {
-    background-image: url(/images/dark-bg6.jpg);
-}
 
 .main-title {
     font-size: 40px;
@@ -169,32 +102,6 @@ address ul li a {
    
 }
 
-.button-1 {
-    
- 
-    bottom: 40%;
-    
-    
-    
-   
-    background: var(--iris, #4D5AE5);
-    color: white;
-    
-}
-
-.button-1:hover {
-    background: var(--iris-hover, #6E78F0);
-}
-
-h3{
-        color: var(--navyblue, #2E2F42);
-        font-size: 20px;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 500;
-        line-height: 24px;
-        letter-spacing: 0.4px;
-       
-}
 p{
     color: var(--slate, #434455);
       
