@@ -407,3 +407,10 @@ h3{
 .section-1{
     background-color: #F4F4FD;
 }
+.eff{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
