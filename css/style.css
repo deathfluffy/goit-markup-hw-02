@@ -373,7 +373,7 @@ font-style: normal;
             line-height: 1.5;
             letter-spacing: 0.02em;
             --iris: #434455;
-            
+            color: var(--link--color, #2e2f42);
             color: var(--stand-color, #434455);
        
 }
