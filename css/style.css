@@ -34,7 +34,7 @@ body{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-      
+        --iris: #434455;
         font-family: "Raleway", sans-serif;
         color:var(--link--color, #2e2f42);
         text-decoration: none;
@@ -60,7 +60,8 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--ocean, #4d5ae5);
+    color: var(--iris, #2e2f42);
+
 }
 .stu{
 
