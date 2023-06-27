@@ -383,6 +383,19 @@ font-style: normal;
             color: #ffffff;
        
 }
+.ann{
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+.ann:hover,
+.ann:focus{
+    background-color: #404BBF
+}
 .dtu:hover{
     color: #404bbf
 }
