@@ -369,8 +369,9 @@ font-style: normal;
             line-height: 1.5;
             letter-spacing: 0.02em;
             --iris: #434455;
-            
+            background-color: #4D5AE5;
             color: var(--link--color, #2e2f42);
+            color: #ffffff;
        
 }
 .dtu:hover{
