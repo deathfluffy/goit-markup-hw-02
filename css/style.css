@@ -40,7 +40,8 @@ body{
         font-family: "Raleway", sans-serif;
         color: var(--link--color, #2e2f42);
         text-decoration: none;
-        color: #f4f4fd
+        color: #f4f4fd;
+        color: var(--logo-text-color, #4d5ae5);
     
 }
 
@@ -218,18 +219,18 @@ font-style: normal;
 }
 .foo{
    background-color:  var(--footer-bg-color);
+
 }
 .all{
-    
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--ocean);
-    background-color: #4D5AE5;
+    background-color: var(--button-bg-color);
     cursor: pointer;
     font-family: "Roboto", sans-serif;
-    color: #FFFFFF;
 
 }
 .all:hover{
@@ -389,7 +390,7 @@ font-style: normal;
     color: #404bbf;
 }
 .sec{
-    
+    background-color: #F4F4FD;
     background-color: var(--section-bg-color, #2e2f42);
 }
 .tio{
