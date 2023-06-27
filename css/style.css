@@ -41,7 +41,7 @@ body{
         color: var(--link--color, #2e2f42);
         text-decoration: none;
         color: #f4f4fd;
-        
+        color: var(--ocean, #4d5ae5);
     
 }
 
