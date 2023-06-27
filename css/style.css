@@ -36,7 +36,7 @@ body{
         letter-spacing: 0.02em;
         --iris: #434455;
         font-family: "Raleway", sans-serif;
-        color:var(--link--color, #2e2f42);
+        color: var(--link--color, #2e2f42);
         text-decoration: none;
 
     
@@ -373,7 +373,7 @@ font-style: normal;
             line-height: 1.5;
             letter-spacing: 0.02em;
             --iris: #434455;
-            color:var(--iris #2e2f42);
+            
             color: var(--stand-color, #434455);
        
 }
