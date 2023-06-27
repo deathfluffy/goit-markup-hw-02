@@ -40,7 +40,8 @@ body{
         font-family: "Raleway", sans-serif;
         color: var(--link--color, #2e2f42);
         text-decoration: none;
-        color: #f4f4fd
+        color: #f4f4fd;
+        color: var(--text-color, #2e2f42);
     
 }
 
@@ -194,6 +195,7 @@ font-style: normal;
     color: #f4f4fd
 }
 .ema{
+
     color: var(--text-color, #2e2f42);
     font-size: 16px;
     line-height: 1.5;
