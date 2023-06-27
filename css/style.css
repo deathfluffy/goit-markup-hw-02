@@ -19,6 +19,7 @@
     --header-color: #434455;
     --stu-color: #2e2f42;
     --section-bg-color: #2e2f42;
+    --link--color: #2e2f42;
 
 }
 body{
@@ -35,7 +36,7 @@ body{
         letter-spacing: 0.02em;
         --iris: #434455;
         font-family: "Raleway", sans-serif;
-        color: var(--stand-color, #2e2f42);
+        color:var(--link--color, #2e2f42);
         text-decoration: none;
 
     
@@ -378,4 +379,18 @@ font-style: normal;
 .sec{
     
     background-color: var(--section-bg-color, #2e2f42);
+}
+.tio{
+    background-color: #F4F4FD;
+}
+.bah{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-title)
+}
+.img{
+    background-color: #FFFFFF;
 }
