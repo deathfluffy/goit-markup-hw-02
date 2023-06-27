@@ -21,6 +21,7 @@
     --section-bg-color: #2e2f42;
     --link--color: #2e2f42;
     --color-title-1: #2e2f42;
+    --footer-text-color: #F4F4FD;
 
 }
 body{
@@ -162,6 +163,12 @@ color: #404bbf;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-text-color, #4d5ae5);
+    color: #f4f4fd
+}
+.inc{
+    line-height: 1.5;
+    color: var(--footer-text-color #F4F4FD);
+    letter-spacing: 0.02em;
 }
 .add{
 
