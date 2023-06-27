@@ -18,6 +18,7 @@
     --description: #434455;
     --header-color: #434455;
     --stu-color: #2e2f42;
+    --section-bg-color: #2e2f42;
 
 }
 body{
@@ -42,11 +43,11 @@ body{
 
 
 .tit{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
-    color: var(--main-title, #2e2f42);
+    color: #FFFFFF;
 }
 
 
@@ -201,7 +202,7 @@ font-style: normal;
 .foo{
    background-color:  var(--footer-bg-color);
 }
-body .all{
+.all{
 
     font-weight: 500;
     font-size: 16px;
@@ -367,4 +368,8 @@ body .all{
 }
 .dtu:focus{
     color: #404bbf;
+}
+.sec{
+    
+    background-color: var(--section-bg-color, #2e2f42);
 }
