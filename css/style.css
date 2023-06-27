@@ -20,6 +20,7 @@
     --stu-color: #2e2f42;
     --section-bg-color: #2e2f42;
     --link--color: #2e2f42;
+    --color-title-1: #2e2f42;
 
 }
 body{
@@ -44,11 +45,13 @@ body{
 
 
 .tit{
-    font-size: 56px;
-    line-height: 1.07;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    color:var(--color-title-1, #2e2f42);
 }
 
 
@@ -103,14 +106,7 @@ body{
    
 }
 
-p{
-        
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color:var(--description, #434455);
-  
-}
+
 .pap{
     font-size: 16px;
     line-height: 1.5;
