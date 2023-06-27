@@ -60,8 +60,7 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--iris, #2e2f42);
-
+    color: var(--ocean, #4d5ae5);
 }
 .stu{
 
@@ -143,7 +142,7 @@ p{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--header-color);
+    
 
 }
 .link:hover{
@@ -373,9 +372,9 @@ font-style: normal;
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
-            
-           
-            color: var(--stand-color, #2e2f42);
+            --iris: #434455;
+            color:var(--iris #2e2f42);
+            color: var(--stand-color, #434455);
        
 }
 .dtu:hover{
