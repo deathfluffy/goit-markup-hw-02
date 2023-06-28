@@ -30,19 +30,12 @@ body{
    font-family: "Roboto", sans-serif;
    color: #434455;
    background-color: var(--background-body);
+   font-size: 16px;
 }
 
 .link {
-    
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        --iris: #434455;
-        font-family: "Raleway", sans-serif;
-        color: var(--link--color, #2e2f42);
-        text-decoration: none;
-        color: var(--ocean, #4d5ae5);
+
+    text-decoration: none;
     
 }
 
@@ -79,14 +72,8 @@ body{
 .stu{
 
    
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    --iris: #434455;
-    font-family: "Raleway", sans-serif;
     color: var(--stu-color, #2e2f42);
-    text-decoration: none;
+   
 
 }
 
@@ -157,10 +144,9 @@ body{
     
 }
 .list{
+
     list-style: none;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+
     
 
 }
