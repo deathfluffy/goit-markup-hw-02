@@ -41,7 +41,6 @@ body{
         font-family: "Raleway", sans-serif;
         color: var(--link--color, #2e2f42);
         text-decoration: none;
-        color: #f4f4fd;
         color: var(--ocean, #4d5ae5);
     
 }
@@ -165,11 +164,7 @@ color: #404bbf;
     
 }
 
-.inc{
-    line-height: 1.5;
-    color: var(--footer-text-color #F4F4FD);
-    letter-spacing: 0.02em;
-}
+
 .add{
 
 font-size: 16px;
