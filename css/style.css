@@ -156,18 +156,7 @@ color: #404bbf;
     letter-spacing: 0.02em;
     
 }
-.ffe{
-    
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--footer--color-2, #4d5ae5);
-    color: #f4f4fd
-    
-}
+
 .inc{
     line-height: 1.5;
     color: var(--footer-text-color #F4F4FD);
