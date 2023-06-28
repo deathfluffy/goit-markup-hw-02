@@ -24,7 +24,7 @@
     --footer-text-color: #F4F4FD;
     --footer--color-2: #4d5ae5;
     --footer-text-color: #F4F4FD;
-
+    --main-title: #2e2f42;
 }
 body{
    font-family: "Roboto", sans-serif;
@@ -407,7 +407,7 @@ font-style: normal;
 }
 .sec{
     background-color: #F4F4FD;
-    background-color: var(--section-bg-color, #2e2f42);
+    
 }
 .tio{
     background-color: #F4F4FD;
@@ -439,4 +439,11 @@ h3{
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+}
+.bap{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-title, #2e2f42);
 }
