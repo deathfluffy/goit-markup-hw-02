@@ -1,11 +1,11 @@
 :root{
     --iris-hover: #6E78F0;
-    --iris: #4D5AE5;
+    
     --navyblue: #2E2F42;
     --slate: #434455;
     --iris: #434455;
     --footer-bg-color: #2e2f42;
-    --iris: #2e2f42;
+  
     --text-color: #2e2f42;
     --title-color: #2e2f42;
     --logo-text-color: #4d5ae5;
@@ -14,16 +14,16 @@
     --ocean: #4d5ae5;
     --button-bg-color: #F4F4FD;
     --background-body: #FFFFFF;
-    --main-title: #2e2f42;
+   
     --description: #434455;
     --header-color: #434455;
     --stu-color: #2e2f42;
     --section-bg-color: #2e2f42;
     --link--color: #2e2f42;
     --color-title-1: #2e2f42;
-    --footer-text-color: #F4F4FD;
+    
     --footer--color-2: #4d5ae5;
-    --footer-text-color: #F4F4FD;
+    --original-title: #F4F4FD;
     --main-title: #2e2f42;
 }
 body{
@@ -119,7 +119,7 @@ body{
   .inc{
 
             line-height: 1.5;
-            color: var(--footer-text-color #F4F4FD);
+            color: var(--original-title);
             letter-spacing: 0.02em;
         
   }
