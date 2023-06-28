@@ -23,6 +23,7 @@
     --color-title-1: #2e2f42;
     --footer-text-color: #F4F4FD;
     --footer--color-2: #4d5ae5;
+    --footer-text-color: #F4F4FD;
 
 }
 body{
@@ -115,6 +116,13 @@ body{
     color: white;
    
 }
+  .inc{
+
+            line-height: 1.5;
+            color: var(--footer-text-color #F4F4FD);
+            letter-spacing: 0.02em;
+        
+  }
 
 
 .pap{
